@@ -511,7 +511,8 @@
     {
       "Id": "791e8249-7f54-43c1-b4a6-028e5454f766",
       "Name": "pm",
-      "Position": "588.2544,-416.3691,110",
+      "Position": "635.7708,-427.183,55.92365",
+      "Rotation": "-0.4999999,-0.4999999,0.4999999,0.5",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/pm/pm.prefab"
@@ -519,7 +520,8 @@
     {
       "Id": "8fddec6e-8d21-44d8-832f-8af6dcb4789c",
       "Name": "ak74",
-      "Position": "518.106,-403.4615,110",
+      "Position": "659.6625,-407.8707,63.589",
+      "Rotation": "-0.4999999,-0.4999999,0.4999999,0.5",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/ak74/ak74.prefab"
@@ -527,7 +529,8 @@
     {
       "Id": "a06474a7-9b7c-4cb0-8031-8541be114baf",
       "Name": "glock",
-      "Position": "481.991,-437.5536,76.89091",
+      "Position": "588.9002,-437.554,57.07076",
+      "Rotation": "-0.4999999,-0.4999999,0.4999999,0.5",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/glock/glock.prefab"
@@ -535,8 +538,8 @@
     {
       "Id": "12899e36-e490-4c65-9826-16bff2faff1f",
       "Name": "vss",
-      "Position": "632.7493,-402.3569,98.91147",
-      "Rotation": "0.7071066,0,0,0.7071067",
+      "Position": "632.7493,-402.3569,61.76886",
+      "Rotation": "0.4999999,-0.4999998,-0.4999999,0.5",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/vss/vss.prefab"
@@ -544,7 +547,8 @@
     {
       "Id": "4222177a-380b-43e3-beab-1d8a0024f078",
       "Name": "svd",
-      "Position": "716.3089,-339.7902,78.08245",
+      "Position": "612.4031,-416.3417,59.02202",
+      "Rotation": "-0.5,-0.4999999,0.5,0.5000001",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/svd/svd.prefab"
@@ -552,11 +556,130 @@
     {
       "Id": "64bcbc9e-65be-4471-bfb2-af6a72424ed9",
       "Name": "kriss",
-      "Position": "653.3596,-440.2128,61.38445",
-      "Rotation": "-0.6087614,0,0,0.7933534",
+      "Position": "582.873,-396.9779,61.38452",
+      "Rotation": "-0.5,-0.5,0.5,0.5",
       "Scale": "1.5,1.5,1.5",
       "Enabled": true,
       "__Prefab": "prefabs/weapons/kriss/kriss.prefab"
+    },
+    {
+      "Id": "864ee27a-849a-49f2-9523-584e7ddc1328",
+      "Name": "medical_supplies_box",
+      "Position": "548.5857,-441.3706,52.18652",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/medical/medical_supplies_box.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "2603783b-56e4-484e-9490-98d4273036bc",
+      "Name": "12x76_slug",
+      "Position": "550.0897,-379.8053,52.0249",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/12x76_slug.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "06f420f3-8215-4a34-bd7f-41aca13ac1a8",
+      "Name": "23mm",
+      "Position": "557.9617,-379.8185,52.0249",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/23mm.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "37c6bc0f-ff05-43f9-b6a9-f00a659e251f",
+      "Name": "45cal",
+      "Position": "576.3628,-380.6371,52",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/45cal.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "f16beb45-af9c-466a-b5af-bbb86eb742b7",
+      "Name": "545x39",
+      "Position": "586.6772,-379.0489,52.0613",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/545x39.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "9f3c9123-6712-4025-94d6-0fc8d61b1852",
+      "Name": "762x39",
+      "Position": "542.614,-379.3354,52.0462",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/762x39.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "16de8155-153a-4fc7-93a7-78a18b5733ad",
+      "Name": "9x18",
+      "Position": "533.5007,-380.1444,52",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/9x18.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -582,7 +705,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-03T02:48:01.6284015-08:00",
+  "LastSaved": "2024-03-04T04:39:04.3086045-08:00",
   "__references": [
     "evilinc.radio",
     "facepunch.wooden_door_01c"
