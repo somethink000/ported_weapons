@@ -1,0 +1,25 @@
+{
+  "Entries": [
+    {
+      "Sound": "models/vector/kriss_magfit.sound",
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/vector/kriss_magout.sound",
+      "Duration": 1
+    },
+    {
+      "Sound": "models/vector/kriss_magin.sound",
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/vector/kriss_chargeback.sound",
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/vector/kriss_chargerelease.sound",
+      "Duration": 0.5
+    }
+  ],
+  "__references": []
+}

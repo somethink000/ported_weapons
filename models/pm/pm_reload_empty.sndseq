@@ -1,0 +1,20 @@
+{
+  "Entries": [
+    {
+      "Duration": 0.1
+    },
+    {
+      "Sound": "models/pm/pm_magout.sound",
+      "Duration": 0.2
+    },
+    {
+      "Sound": "models/pm/pm_magin.sound",
+      "Duration": 0.2
+    },
+    {
+      "Sound": "models/pm/pm_slideforward.sound",
+      "Duration": 0.2
+    }
+  ],
+  "__references": []
+}

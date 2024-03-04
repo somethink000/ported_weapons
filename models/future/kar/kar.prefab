@@ -1,0 +1,79 @@
+{
+  "RootObject": {
+    "Id": "14bfe917-4077-43c7-b718-dcc56f5a6a74",
+    "Name": "kar",
+    "Scale": "1.5,1.5,1.5",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 9493,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/kar/w/kar98k.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "RifleBolted",
+        "aimPos": "0,0,0",
+        "aimRotation": "0,0,0,0",
+        "AmmoType": "Rifle",
+        "ClipSize": 4,
+        "Damage": 100,
+        "DamageForce": 5,
+        "DefaultAmmo": 60,
+        "DeploySound": "sounds/weapons/hands_on.sound",
+        "DeployTime": 0.5,
+        "DisplayName": "Kar",
+        "EmptyClipSound": "sounds/weapons/empty_assaultrifles.sound",
+        "EmptyReloadSoundSequence": "models/kar/reload_one.sndseq",
+        "EmptyReloadTime": 4.7,
+        "FireRate": 2,
+        "FireSound": "models/kar/kar98k_fire1.sound",
+        "HoldType": "Rifle",
+        "HolsterSound": "sounds/weapons/hands_off.sound",
+        "HolsterTime": 0.5,
+        "idlePos": "0,0,0",
+        "ImpactEffect": "particles/impact.generic.vpcf",
+        "IsAuto": false,
+        "IsDeployed": false,
+        "MuzzleFlash": "particles/pistol_muzzleflash.vpcf",
+        "Recoil": "-20,0,0",
+        "ReloadSoundSequence": "models/kar/reload_one.sndseq",
+        "ReloadTime": 3.5,
+        "runRotation": "0,0,0,0",
+        "Spread": 0.01,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "prefabs/weapons/kar/vm_kar.prefab"
+        }
+      },
+      {
+        "__type": "ModelCollider",
+        "IsTrigger": false,
+        "Model": "models/kar/w/kar98k.vmdl",
+        "Static": false,
+        "Surface": null
+      },
+      {
+        "__type": "Rigidbody",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassOverride": 0,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

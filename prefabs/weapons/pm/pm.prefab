@@ -1,0 +1,79 @@
+{
+  "RootObject": {
+    "Id": "791e8249-7f54-43c1-b4a6-028e5454f766",
+    "Name": "pm",
+    "Scale": "1.5,1.5,1.5",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 1,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/pm/w/pm.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "BaseGun",
+        "aimPos": "-2.5,1.9,0.915",
+        "aimRotation": "0,0,0,0",
+        "AmmoType": "Pistol",
+        "ClipSize": 8,
+        "Damage": 40,
+        "DamageForce": 5,
+        "DefaultAmmo": 60,
+        "DeploySound": "sounds/weapons/hands_on.sound",
+        "DeployTime": 0.5,
+        "DisplayName": "PM",
+        "EmptyClipSound": "sounds/weapons/empty_pistol.sound",
+        "EmptyReloadSoundSequence": "models/pm/pm_reload_empty.sndseq",
+        "EmptyReloadTime": 1.9,
+        "FireRate": 7,
+        "FireSound": "models/pm/pm_fire1.sound",
+        "HoldType": "Pistol",
+        "HolsterSound": "sounds/weapons/hands_off.sound",
+        "HolsterTime": 0.5,
+        "idlePos": "-3,0,0",
+        "ImpactEffect": "particles/impact.generic.vpcf",
+        "IsAuto": false,
+        "IsDeployed": false,
+        "MuzzleFlash": "particles/pistol_muzzleflash.vpcf",
+        "Recoil": "-30,0,0",
+        "ReloadSoundSequence": "models/pm/pm_reload.sndseq",
+        "ReloadTime": 2.2,
+        "runRotation": "-0.01513444,0.08583164,0.1729874,0.9810603",
+        "Spread": 0.01,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "prefabs/weapons/pm/vm_pm.prefab"
+        }
+      },
+      {
+        "__type": "Rigidbody",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassOverride": 0,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "ModelCollider",
+        "IsTrigger": false,
+        "Model": "models/pm/w/pm.vmdl",
+        "Static": false,
+        "Surface": null
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

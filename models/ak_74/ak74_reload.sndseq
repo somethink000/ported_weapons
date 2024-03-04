@@ -1,0 +1,16 @@
+{
+  "Entries": [
+    {
+      "Duration": 1.3
+    },
+    {
+      "Sound": "models/ak_74/ak74_magout.sound",
+      "Duration": 1.1
+    },
+    {
+      "Sound": "models/ak_74/ak74_magin.sound",
+      "Duration": 0.8
+    }
+  ],
+  "__references": []
+}

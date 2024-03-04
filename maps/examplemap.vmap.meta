@@ -1,0 +1,47 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "examplemap",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "examplemap",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": "*",
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "reizer.wood_box_01a#20072",
+        "sundayservice.wood_old_06a#27330",
+        "tfassets.wood_wall002#20935",
+        "saandy.wallpaper03_hs#17235",
+        "pxlq.stainedwall#17431",
+        "kvien.concretefloor04_pixel#37124",
+        "facepunch.ceiling_plaster_01#33577",
+        "facepunch.modern_shelving_wall_a1#43553",
+        "legendtech.p2_lobby_chair#26233",
+        "evilinc.wall_wallpaper_01#46008",
+        "polyhaven.concrete_floor_02#33336",
+        "evilinc.wall_wallpaper_01w#46039",
+        "evilinc.wood_parquet_iov#46041",
+        "evilinc.wall_walls_paint_05#46183",
+        "evilinc.crete_beton_7#46261",
+        "evilinc.crete_beton_dirt_01#46263",
+        "polyhaven.aerial_grass_rock#33315",
+        "evilinc.tile_walls_rg01#46275",
+        "evilinc.wall_wallpaper_01w#46262",
+        "evilinc.m_ll_lamp_colba_01#46919",
+        "evilinc.m_ll_lamp_colba_01#46931"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/examplemap.vmap"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Entries": [
+    {
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/drag/svd_magout.sound",
+      "Duration": 1.5
+    },
+    {
+      "Sound": "models/drag/svd_magin.sound",
+      "Duration": 1
+    }
+  ],
+  "__references": []
+}

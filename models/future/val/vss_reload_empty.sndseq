@@ -1,0 +1,9 @@
+{
+  "Entries": [
+    {
+      "Sound": "models/val/vss_reload_empty.sound",
+      "Duration": 4
+    }
+  ],
+  "__references": []
+}

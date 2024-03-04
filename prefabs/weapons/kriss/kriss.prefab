@@ -1,0 +1,79 @@
+{
+  "RootObject": {
+    "Id": "64bcbc9e-65be-4471-bfb2-af6a72424ed9",
+    "Name": "kriss",
+    "Scale": "1.5,1.5,1.5",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 9493,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/vector/w/vector.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "BaseGun",
+        "aimPos": "-3.5,2.87,2.9",
+        "aimRotation": "0,0,0,0",
+        "AmmoType": "Pistol",
+        "ClipSize": 33,
+        "Damage": 40,
+        "DamageForce": 5,
+        "DefaultAmmo": 90,
+        "DeploySound": "sounds/weapons/hands_on.sound",
+        "DeployTime": 0.5,
+        "DisplayName": "Kriss",
+        "EmptyClipSound": "sounds/weapons/empty_assaultrifles.sound",
+        "EmptyReloadSoundSequence": "models/vector/kriss_reload_empty.sndseq",
+        "EmptyReloadTime": 4,
+        "FireRate": 12,
+        "FireSound": "models/vector/kriss_fire1.sound",
+        "HoldType": "Rifle",
+        "HolsterSound": "sounds/weapons/hands_off.sound",
+        "HolsterTime": 0.5,
+        "idlePos": "-2,-1,-0.8",
+        "ImpactEffect": "particles/impact.generic.vpcf",
+        "IsAuto": true,
+        "IsDeployed": false,
+        "MuzzleFlash": "particles/pistol_muzzleflash.vpcf",
+        "Recoil": "-30,0,0",
+        "ReloadSoundSequence": "models/vector/kriss_reload.sndseq",
+        "ReloadTime": 2.5,
+        "runRotation": "-0.02255756,0.08418597,0.2578342,0.9622502",
+        "Spread": 0.01,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "prefabs/weapons/kriss/vm_kriss.prefab"
+        }
+      },
+      {
+        "__type": "ModelCollider",
+        "IsTrigger": false,
+        "Model": "models/vector/w/vector.vmdl",
+        "Static": false,
+        "Surface": null
+      },
+      {
+        "__type": "Rigidbody",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassOverride": 0,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

@@ -1,0 +1,18 @@
+{
+  "Entries": [
+    {},
+    {
+      "Sound": "models/kar/kar98k_boltback.sound",
+      "Duration": 0.2
+    },
+    {
+      "Sound": "models/kar/m24_insert1.sound",
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/kar/kar98k_boltforward.sound",
+      "Duration": 0.5
+    }
+  ],
+  "__references": []
+}

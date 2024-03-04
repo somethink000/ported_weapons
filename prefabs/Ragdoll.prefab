@@ -1,0 +1,40 @@
+{
+  "RootObject": {
+    "Id": "ea47a272-0e12-4c8b-8ae0-30c550f297f7",
+    "Name": "ragdoll",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "ZombieRagdoll"
+      },
+      {
+        "__type": "ModelPhysics",
+        "Locking": {},
+        "Model": "models/citizen/citizen.vmdl",
+        "Renderer": {
+          "_type": "component",
+          "go": "ea47a272-0e12-4c8b-8ae0-30c550f297f7",
+          "component_type": "SkinnedModelRenderer"
+        },
+        "RigidbodyFlags": 0
+      },
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 341,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": "models/citizen/skin/citizen_skin_zombie.vmat",
+        "Model": "models/citizen/citizen.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

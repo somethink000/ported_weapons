@@ -1,0 +1,24 @@
+{
+  "Entries": [
+    {
+      "Duration": 0.4
+    },
+    {
+      "Sound": "models/drag/svd_magout_empty.sound",
+      "Duration": 1.5
+    },
+    {
+      "Sound": "models/drag/svd_magin_nomen.sound",
+      "Duration": 1.2
+    },
+    {
+      "Sound": "models/drag/svd_boltback.sound",
+      "Duration": 0.2
+    },
+    {
+      "Sound": "models/drag/svd_boltforward.sound",
+      "Duration": 0.5
+    }
+  ],
+  "__references": []
+}

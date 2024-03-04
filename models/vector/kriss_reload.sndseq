@@ -1,0 +1,17 @@
+{
+  "Entries": [
+    {
+      "Sound": "models/vector/kriss_magfit.sound",
+      "Duration": 0.5
+    },
+    {
+      "Sound": "models/vector/kriss_magout.sound",
+      "Duration": 1.6
+    },
+    {
+      "Sound": "models/vector/kriss_magin.sound",
+      "Duration": 1
+    }
+  ],
+  "__references": []
+}

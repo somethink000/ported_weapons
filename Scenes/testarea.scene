@@ -1,0 +1,590 @@
+{
+  "Id": "d995d9ea-62ed-4358-8dd0-82285261aefe",
+  "GameObjects": [
+    {
+      "Id": "083aca3b-13f8-40c0-b6e7-c9832589cb3e",
+      "Name": "Spawnpoint (1)",
+      "Position": "708.2573,-408.2062,61.05294",
+      "Rotation": "0,0,-0.9989132,-0.04660946",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpawnPoint",
+          "Color": "0.8902,0.31765,0.05098,1"
+        }
+      ]
+    },
+    {
+      "Id": "57723daf-6b12-4e32-add9-81a777fe1625",
+      "Name": "Network",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "NetworkManager",
+          "PlayerPrefab": {
+            "_type": "gameobject",
+            "prefab": "prefabs/player.prefab"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "9d4b76af-44c2-4f50-abff-3e62a0e2b753",
+      "Name": "MapObjects",
+      "Position": "-16.73947,-29.02401,131.4671",
+      "Enabled": true,
+      "Children": [
+        {
+          "Id": "f576119b-75d5-4387-a17b-af801b10098e",
+          "Name": "Map",
+          "Position": "0,0,1584.684",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "MapInstance",
+              "MapName": "maps/lonewood_1.vmap",
+              "OnMapLoaded": null,
+              "OnMapUnloaded": null,
+              "UseMapFromLaunch": false
+            }
+          ],
+          "Children": []
+        },
+        {
+          "Id": "e62cf48b-ed49-4de0-a975-0c76457b0952",
+          "Name": "Sun",
+          "Position": "0,0,0",
+          "Rotation": "-0.008501739,-0.004988005,-0.8670731,0.4980835",
+          "Tags": "light_directional,light",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "DirectionalLight",
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.11163,0.05209,0,1",
+              "Shadows": true,
+              "SkyColor": "0.01395,0.01129,0.00824,1"
+            }
+          ]
+        },
+        {
+          "Id": "16ed4ab6-8a51-430c-a43b-402bc1c7d962",
+          "Name": "2D Skybox",
+          "Position": "0,0,0",
+          "Tags": "skybox",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SkyBox2D",
+              "SkyMaterial": "materials/sky/atmosphere_sky.vmat",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "Id": "3307d523-5fad-49cc-9199-e01712acf450",
+          "Name": "Sun",
+          "Position": "0,0,0",
+          "Rotation": "0,0.2454152,0,0.969418",
+          "Tags": "light_directional,light",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "DirectionalLight",
+              "__enabled": false,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Shadows": true,
+              "SkyColor": "0.63862,0.65938,0.66977,1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "9704ca71-0fe9-47ff-bc1d-670ba7862d4a",
+      "Name": "Defance Game",
+      "Position": "1330.474,-1123.498,-50.56609",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "DefanceGame"
+        }
+      ]
+    },
+    {
+      "Id": "07107f00-056b-4101-8a47-bb807019e09a",
+      "Name": "radio_ent",
+      "Position": "560.2811,-349.9237,65.01704",
+      "Rotation": "0,0,-0.7635582,0.6457391",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "content/models/radio/radio.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "content/models/radio/radio.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "Radio",
+          "Musics": [
+            "sounds/world/music/bi2_polkovnik.sound",
+            "sounds/world/music/bi2_varvara.sound",
+            "sounds/world/music/kino_blood.sound",
+            "sounds/world/music/kino_kukushka.sound",
+            "sounds/world/music/kino_night.sound",
+            "sounds/world/music/kino_peremen.sound",
+            "sounds/world/music/kino_zvezda.sound",
+            "sounds/world/music/lumen_dream.sound",
+            "sounds/world/music/lumen_fire.sound",
+            "sounds/world/music/lumen_gov.sound",
+            "sounds/world/music/splin_allthis.sound",
+            "sounds/world/music/splin_lifeline.sound",
+            "sounds/world/music/splin_myheart.sound",
+            "sounds/world/music/splin_noexit.sound"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "d2f90671-8836-4d8a-bc97-14285e2bc780",
+      "Name": "radio_ent (1)",
+      "Position": "651.3551,-63.98073,99.16048",
+      "Rotation": "0,0,-0.866066,-0.4999298",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 17,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/medical/medical_supplies_box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/medical/medical_supplies_box.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "MedicSuplie",
+          "Model": {
+            "_type": "component",
+            "go": "d2f90671-8836-4d8a-bc97-14285e2bc780",
+            "component_type": "ModelRenderer"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "f8b176c7-0950-4785-849f-685342e3e733",
+      "Name": "Object",
+      "Position": "-357.0258,-1004.537,84.52219",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ZombieSpawner",
+          "__enabled": false,
+          "RespawnTime": 50,
+          "ZombiePrefab": {
+            "_type": "gameobject",
+            "prefab": "prefabs/zombie.prefab"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "b62d1a11-40a4-4cae-9638-4628c9f1f35b",
+      "Name": "9x18",
+      "Position": "575.5687,-338.61,64.39032",
+      "Rotation": "0,0,-0.216332,0.9763198",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/9x18.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "07d5c4ad-7aa2-4c24-af6e-c71d123716ab",
+      "Name": "545x39",
+      "Position": "575.1365,-337.4377,60.0613",
+      "Rotation": "0,0,-0.3431151,0.9392934",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Prop",
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/ammos/545x39.vmdl",
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "ShowCreatedComponents": false
+        }
+      ]
+    },
+    {
+      "Id": "558bb20a-8fd5-44a4-bab8-a1cb318a8759",
+      "Name": "Object (1)",
+      "Position": "700.4406,-419.9222,99.90381",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SoundscapeTrigger",
+          "BoxSize": "50,50,50",
+          "Radius": 2000,
+          "Soundscape": "sounds/world/lonewood_wrld.sndscape",
+          "StayActiveOnExit": true,
+          "Type": "Sphere"
+        }
+      ]
+    },
+    {
+      "Id": "2b67047f-15e5-4d0f-8bf8-1615bb35c6ad",
+      "Name": "DoorEnt",
+      "Position": "588.9223,-320.4516,60.11197",
+      "Rotation": "0,0,0.7071068,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "774e8d7a-262b-4539-b7c3-7e156318c3e3",
+      "Name": "DoorEnt (4)",
+      "Position": "205.4787,-621.1322,51.9128",
+      "Rotation": "0,0,1,0.00000008940697",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "a5d1bcd2-035a-408e-a8f8-1e0a223b8b57",
+      "Name": "DoorEnt (7)",
+      "Position": "1267.338,16.93772,55.95711",
+      "Rotation": "0,0,1,0.00000008940697",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "d93a89a8-d1aa-45be-bdad-a472fcc0ecdb",
+      "Name": "DoorEnt (6)",
+      "Position": "262.8633,-1114.219,55.73994",
+      "Rotation": "0,0,0.7071069,-0.7071066",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,-0,-0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "74052bec-fe32-4d0a-b834-e25f1a39f8f0",
+      "Name": "DoorEnt (5)",
+      "Position": "84.94664,-742.9557,51.91284",
+      "Rotation": "0,0,1,0.00000008940697",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "ef4b3abc-087c-48bb-946d-a3ee3507a6d0",
+      "Name": "DoorEnt (1)",
+      "Position": "549.1273,68.76861,60.11197",
+      "Rotation": "0,0,1,-0.00000004371139",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "6bff9163-1218-418e-99c4-6ff9b387793a",
+      "Name": "DoorEnt (2)",
+      "Position": "494.6436,-14.75741,60.11195",
+      "Rotation": "0,-0,-0.7071068,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "b240d09f-02a0-4f7f-acc9-038e47e19d8e",
+      "Name": "DoorEnt (3)",
+      "Position": "235.0474,-14.75741,60.11195",
+      "Rotation": "0,-0,-0.7071068,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "ModelCollider",
+          "IsTrigger": false,
+          "Model": "models/props/trim_sheets/doors/wooden_doors/wooden_door_01c.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "DoorEntity",
+          "MoveDir": "0,0,0.7071068,0.7071068",
+          "MoveSpeed": 5,
+          "Open": false
+        }
+      ]
+    },
+    {
+      "Id": "791e8249-7f54-43c1-b4a6-028e5454f766",
+      "Name": "pm",
+      "Position": "588.2544,-416.3691,110",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/pm/pm.prefab"
+    },
+    {
+      "Id": "8fddec6e-8d21-44d8-832f-8af6dcb4789c",
+      "Name": "ak74",
+      "Position": "518.106,-403.4615,110",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/ak74/ak74.prefab"
+    },
+    {
+      "Id": "a06474a7-9b7c-4cb0-8031-8541be114baf",
+      "Name": "glock",
+      "Position": "481.991,-437.5536,76.89091",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/glock/glock.prefab"
+    },
+    {
+      "Id": "12899e36-e490-4c65-9826-16bff2faff1f",
+      "Name": "vss",
+      "Position": "632.7493,-402.3569,98.91147",
+      "Rotation": "0.7071066,0,0,0.7071067",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/vss/vss.prefab"
+    },
+    {
+      "Id": "4222177a-380b-43e3-beab-1d8a0024f078",
+      "Name": "svd",
+      "Position": "716.3089,-339.7902,78.08245",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/svd/svd.prefab"
+    },
+    {
+      "Id": "64bcbc9e-65be-4471-bfb2-af6a72424ed9",
+      "Name": "kriss",
+      "Position": "653.3596,-440.2128,61.38445",
+      "Rotation": "-0.6087614,0,0,0.7933534",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "__Prefab": "prefabs/weapons/kriss/kriss.prefab"
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 60,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": true,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "minimal",
+  "Description": "",
+  "LastSaved": "2024-03-03T02:48:01.6284015-08:00",
+  "__references": [
+    "evilinc.radio",
+    "facepunch.wooden_door_01c"
+  ]
+}

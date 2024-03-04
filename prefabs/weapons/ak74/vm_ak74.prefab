@@ -1,0 +1,52 @@
+{
+  "RootObject": {
+    "Id": "857c66ae-efaa-42ea-8fda-59763b640b3f",
+    "Name": "vm_ak74",
+    "Tags": "viewmodel",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "ViewModel",
+        "ModelRenderer": {
+          "_type": "component",
+          "go": "857c66ae-efaa-42ea-8fda-59763b640b3f",
+          "component_type": "SkinnedModelRenderer"
+        },
+        "UseSprintAnimation": false
+      },
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 11,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/ak_74/v/ak74.vmdl",
+        "RenderType": "Off",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 18446744073709551615,
+        "BoneMergeTarget": {
+          "_type": "component",
+          "go": "857c66ae-efaa-42ea-8fda-59763b640b3f",
+          "component_type": "SkinnedModelRenderer"
+        },
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/handes/pmm_ref_hand_red.vmdl",
+        "RenderType": "Off",
+        "Tint": "1,1,1,1"
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

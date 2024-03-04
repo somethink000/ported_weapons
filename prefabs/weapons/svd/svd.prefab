@@ -1,0 +1,79 @@
+{
+  "RootObject": {
+    "Id": "4222177a-380b-43e3-beab-1d8a0024f078",
+    "Name": "svd",
+    "Scale": "1.5,1.5,1.5",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 9493,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/drag/w/svd.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "BaseGun",
+        "aimPos": "-3,3.37,3",
+        "aimRotation": "0,0,0,0",
+        "AmmoType": "Rifle",
+        "ClipSize": 10,
+        "Damage": 40,
+        "DamageForce": 5,
+        "DefaultAmmo": 90,
+        "DeploySound": "sounds/weapons/hands_on.sound",
+        "DeployTime": 0.5,
+        "DisplayName": "SVD",
+        "EmptyClipSound": "sounds/weapons/empty_sniperrifles.sound",
+        "EmptyReloadSoundSequence": "models/drag/svd_reload_empty.sndseq",
+        "EmptyReloadTime": 4.5,
+        "FireRate": 4,
+        "FireSound": "models/drag/svd_fire1.sound",
+        "HoldType": "Rifle",
+        "HolsterSound": "sounds/weapons/hands_off.sound",
+        "HolsterTime": 0.5,
+        "idlePos": "-2,-1,-1.5",
+        "ImpactEffect": "particles/impact.generic.vpcf",
+        "IsAuto": false,
+        "IsDeployed": false,
+        "MuzzleFlash": "particles/pistol_muzzleflash.vpcf",
+        "Recoil": "-30,0,0",
+        "ReloadSoundSequence": "models/drag/svd_reload.sndseq",
+        "ReloadTime": 2.8,
+        "runRotation": "-0.02255756,0.08418597,0.2578342,0.9622502",
+        "Spread": 0.01,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "prefabs/weapons/svd/vm_svd.prefab"
+        }
+      },
+      {
+        "__type": "ModelCollider",
+        "IsTrigger": false,
+        "Model": "models/drag/w/svd.vmdl",
+        "Static": false,
+        "Surface": null
+      },
+      {
+        "__type": "Rigidbody",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassOverride": 0,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

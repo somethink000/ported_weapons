@@ -1,0 +1,79 @@
+{
+  "RootObject": {
+    "Id": "6c9be6a2-d07b-4b1e-9564-450637a0fd42",
+    "Name": "ak74",
+    "Scale": "1.5,1.5,1.5",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 9493,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/ak_74/w/ak74.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "BaseGun",
+        "aimPos": "-3,3.19,1.72",
+        "aimRotation": "0,0,0,0",
+        "AmmoType": "Rifle",
+        "ClipSize": 30,
+        "Damage": 40,
+        "DamageForce": 5,
+        "DefaultAmmo": 90,
+        "DeploySound": "sounds/weapons/hands_on.sound",
+        "DeployTime": 0.5,
+        "DisplayName": "AK74",
+        "EmptyClipSound": "sounds/weapons/empty_assaultrifles.sound",
+        "EmptyReloadSoundSequence": "models/ak_74/ak74_reload_empty.sndseq",
+        "EmptyReloadTime": 4.7,
+        "FireRate": 7,
+        "FireSound": "models/ak_74/ak74_fire1.sound",
+        "HoldType": "Rifle",
+        "HolsterSound": "sounds/weapons/hands_off.sound",
+        "HolsterTime": 0.5,
+        "idlePos": "-3,-1,-1",
+        "ImpactEffect": "particles/impact.generic.vpcf",
+        "IsAuto": true,
+        "IsDeployed": false,
+        "MuzzleFlash": "particles/pistol_muzzleflash.vpcf",
+        "Recoil": "-30,0,0",
+        "ReloadSoundSequence": "models/ak_74/ak74_reload.sndseq",
+        "ReloadTime": 3.5,
+        "runRotation": "-0.02255756,0.08418597,0.2578342,0.9622502",
+        "Spread": 0.01,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "prefabs/weapons/ak74/vm_ak74.prefab"
+        }
+      },
+      {
+        "__type": "ModelCollider",
+        "IsTrigger": false,
+        "Model": "models/ak_74/w/ak74.vmdl",
+        "Static": false,
+        "Surface": null
+      },
+      {
+        "__type": "Rigidbody",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassOverride": 0,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}
